@@ -140,7 +140,7 @@ public class UsuarioController implements IUsuarioController{
 
         DBConnection con = new DBConnection();
 
-        String sql1 = "Delete from alquiler where username_usuario = '" + username + "'";
+        String sql1 = "Delete from fecha where username_usuario = '" + username + "'";
         String sql2 = "Delete from usuario where username_usuario = '" + username + "'";
 
         try {
